@@ -697,11 +697,15 @@ banner
 }
 
 .main-banner .right-content .right-first-image .thumb .inner-content {
+  margin-bottom: 100px;
+  background-color: rgba(0, 0, 0, 0.564);
+  padding: 10px;
   position: absolute;
-  top: 50%;
+  top: 87%;
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
+  
 }
 
 .main-banner .right-content .right-first-image .thumb .inner-content h4 {
