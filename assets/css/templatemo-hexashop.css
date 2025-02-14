@@ -794,20 +794,23 @@ Men
 
 #men .item .down-content span {
   font-size: 18px;
-  color: #a1a1a1;
+  color: #ff0000;
   font-weight: 500;
   display: block;
+  
 }
 
 #men .item .down-content ul.stars {
   position: absolute;
   right: 0;
   top: 30px;
+  
 }
 
 #men .item .down-content ul.stars li {
   display: inline;
   font-size: 13px;
+  color: red;
 }
 
 #men .item .thumb .hover-content {
@@ -1660,12 +1663,14 @@ Products Page
   color: #a1a1a1;
   font-weight: 500;
   display: block;
+  
 }
 
 #products .item .down-content ul.stars {
   position: absolute;
   right: 0;
   top: 20px;
+  color: red;
 }
 
 #products .item .down-content ul.stars li {
@@ -2371,6 +2376,11 @@ responsive
 #preloader .jumper > div:nth-child(3) {
   -webkit-animation-delay: 0.66666s;
   animation-delay: 0.66666s;
+}
+.col-lg-4{
+  
+  margin-bottom: 30px;
+  
 }
 
 @-webkit-keyframes jumper {
